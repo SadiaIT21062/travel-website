@@ -1,102 +1,125 @@
-body{
+body
+{
     width:80%;
     margin:0 auto;
 }
-.orange{
+.orange
+{
     color:#FF5400;
 }
-.white{
+.white
+{
     color:white;
 }
 /* nav related style */
-.nav{
+.nav
+{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.nav-title
+{
     font-size: 28px;
 }
-.nav-bars-container ul{
+.nav-bars-container ul
+{
     display:flex;
     
 }
-.nav-bars-container li{
+.nav-bars-container li
+{
     list-style:none;
     padding-left: 30px;
 }
 /* header section style */
-.header{
+.header
+{
     background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
     width:100%;
     height:420px;
     border-radius: 12px;
 }
-.header-title{
+.header-title
+{
     padding-top:110px;
     margin:auto 20px;
     text-align: center;
     font-size: 40px;
 }
-.header-description{
+.header-description
+{
     width:63%;
     text-align:center;
     margin:18px auto 32px;
 }
-.header-buttons-container{
+.header-buttons-container
+{
     width:50%;
     margin:0 auto;
     display:flex;
     justify-content: space-around;
     
 }
-.buttons{
+.buttons
+{
     border:0;
     height:33px;
     width:100px;
     border-radius: 6px;
     margin-top: 20px;
 }
-.bg-orange{
+.bg-orange
+{
     background-color: #FF5400;
     color:white;
 }
 /* popular tour section */
-.popular-tour{
+.popular-tour
+{
     display:flex;
     margin:50px auto;
     justify-content: space-between;
 }
-.description{
+.description
+{
     color:rgba(72, 71, 71, 0.679);
 }
-.tour-description{
+.tour-description
+{
     width:50%;
    
 }
-.popular-tour img{
+.popular-tour img
+{
     width:380px;
 }
-.description li{
+.description li
+{
     margin:15px 0px;
     
 }
-.destination-description{
+.destination-description
+{
     width:70%;
     margin:40px auto;
     text-align: center;
 }
 
-.destination-description p{
+.destination-description p
+{
     color:rgba(72, 71, 71, 0.679);
 }
-.row1{
+.row1
+{
     display: flex; 
 }
-.row1-1{
+.row1-1
+{
     width:50%;
 }
-.row1-1 img{
+.row1-1 img
+{
     width:98%;
     margin:0px 5px;
     height:300px;
@@ -111,85 +134,134 @@ body{
     gap:16px 18px;
     margin:10px auto;
 }
-.row3{
+.row3
+{
     width:100%;
     display: flex;
     justify-content: center;
     gap:15px;
 }
-.why-choose-us{
+.why-choose-us
+{
     margin-top: 60px;
 }
-.choose{
+.choose
+{
     width:70%;
     margin:0px auto;
     text-align: center;
 }
-.part1{
+.part1
+{
   display: flex;
 
 }
-.part1 div{
+.part1 div
+{
     width:40%;
     margin:30px auto;
     
 }
-.hotel{
+.hotel
+{
     border:#fbab83 1px solid;
     padding: 0px 15px;
     border-radius: 8px;
     background-color: #fae1d5;
 }
-.service{
+.service
+{
     border:solid skyblue 1px;
     background-color: rgb(200, 239, 254);
     padding: 0px 15px;
     border-radius: 8px;
 }
-.part2{
+.part2
+{
     width:40%;
     margin:0px auto 70px;
     border:#FF5400 1px solid;
     background-color: #ffc0a0;
     padding: 0px 15px;
     border-radius: 8px;
-
 }
-.lost{
+.lost
+{
     display: flex;
     justify-content: space-around;
 }
-.lost div{
+.lost div
+{
     width:40%;
     margin:0 auto;
 }
-.lost img{
+.lost img
+{
     width:480px;
 }
-.lost-description{
+.lost-description
+{
     color:rgba(12, 10, 10, 0.668);
 }
-.lost-description h2{
+.lost-description h2
+{
     color:black;
 }
-
+.newsletter form
+{
+    border:#FF5400 1px solid;
+    border-radius: 7px;
+    width:425px;
+    height:300px;
+    padding:0px 5px;
+}
+.newsletter img
+{
+    width:550px;
+    height:300px;
+}
+.newsletter
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.newsletter form{
+    
+    padding: 0px 0px 0px 30px;
+}
+.subscribe{
+    width:91%;
+}
+#btn{
+    width:91%;
+    margin-top: 20px;
+    background-color:rgb(220, 211, 211);
+    border:0;
+    border-radius: 6px;
+    padding:6px 0px 6px 3px;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px)
 {
-    body{
+    body
+    {
         width:90%;
         margin: 0 auto;
     }
-    .nav{
+    .nav
+    {
         display:flex;
         flex-direction: column;
         align-items: center;
     }   
-    .nav-bars-container{
+    .nav-bars-container
+    {
         padding:px;
         text-align: center;
     }
-    .nav-bars-container li{
+    .nav-bars-container li
+    {
         display: flex;
         justify-content: center;
         padding-left: 5px;
@@ -211,68 +283,109 @@ body{
         font-size: 30px;
     }
     
-    .header-description{
+    .header-description
+    {
         width:90%;
         text-align:center;
         margin:18px auto 32px;
     }
-    .popular-tour{
+    .popular-tour
+    {
         display: flex;
         flex-direction: column;
     }
-    .tour-description{
+    .tour-description
+    {
         width:95%;
         margin:10px auto;
         
     }
-    .popular-tour img{
+    .popular-tour img
+    {
         width:100%;
         margin:15px 0px;
        
     }
-    .row1{
+    .row1
+    {
         display:flex;
         flex-direction: column;
         
     }
-    .row2{
+    .row2
+    {
        
         display:flex;
         flex-direction: column;
     }
-    .row3{
+    .row3
+    {
         
         display:flex;
         flex-direction: column;
     }
-    .row1 img,.row2 img,.row3 img{
+    .row1 img,.row2 img,.row3 img
+    {
         width:300px;
         height:200px;
         margin:5px 50px;
 
     }
-    .part1{
+    .part1
+    {
         display: flex;
         flex-direction: column;
     }
-    .part1 div{
+    .part1 div
+    {
         width:80%;
         margin:20px auto 0px;
     }
-    .part2{
+    .part2
+    {
         width: 80%;
         margin-top: 20px;
     }
-   .lost{
+   .lost
+   {
     display: flex;
     flex-direction: column;
    }
-   .lost div{
+   .lost div
+   {
     width:90%;
     margin:0 auto;
    }
-   .lost img{
+   .lost img
+   {
     margin:30px auto;
     width:350px;
+}
+.newsletter{
+    display:flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+.newsletter form{
+    width:85%;
+    margin:0px auto;
+    padding: 0px 5px 5px 10px;
+}
+.newsletter img{
+    width:380px;
+    height:300px;
+    margin:30px auto;
+}
+.subscribe{
+    width:80%;
+}
+#btn{
+    width:80%;
+    margin-top: 20px;
+    background-color:rgb(220, 211, 211);
+    border:0;
+    border-radius: 6px;
+    padding:6px 0px 6px 3px;
 }
 }
