@@ -242,7 +242,7 @@ body
     padding:6px 0px 6px 3px;
 }
 /* responsive for mobile */
-@media screen and (max-width:576px)
+@media screen and (max-width:600px)
 {
     body
     {
@@ -303,7 +303,7 @@ body
     .popular-tour img
     {
         width:100%;
-        margin:15px 0px;
+        margin:auto;
        
     }
     .row1
@@ -328,7 +328,7 @@ body
     {
         width:300px;
         height:200px;
-        margin:5px 50px;
+        margin:5px 100px;
 
     }
     .part1
